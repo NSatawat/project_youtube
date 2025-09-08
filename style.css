@@ -86,18 +86,26 @@
     
 }
 
-.subs {
-    display: flex;   
-    flex-direction: column;
+
+.subs li{
+    display: flex;
     align-items: center;
+}
+
+.subs li img{
+    margin-right: 1rem;
 }
 
 .subs h3{
     text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+    color: rgb(97, 97, 97);
 }
 
 .content-c{
     padding: 1rem;
+    background-color: rgb(242, 242, 242);
 }
 
 .filter{
